@@ -13,6 +13,14 @@
 		767763BA237393090011419F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767763B8237393090011419F /* Main.storyboard */; };
 		767763BC2373930B0011419F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767763BB2373930B0011419F /* Assets.xcassets */; };
 		767763BF2373930B0011419F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767763BD2373930B0011419F /* LaunchScreen.storyboard */; };
+		767763C8237394150011419F /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 767763C6237394150011419F /* lamp_on.png */; };
+		767763C9237394150011419F /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 767763C7237394150011419F /* lamp_off.png */; };
+		767763CB237394820011419F /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767763CA237394820011419F /* ImageViewController.swift */; };
+		767763CD2373955F0011419F /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767763CC2373955F0011419F /* DateViewController.swift */; };
+		767763CF23739DBE0011419F /* 05.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 767763CE23739DBE0011419F /* 05.jpeg */; };
+		767763D123739E1F0011419F /* IMG_4632.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 767763D023739E1F0011419F /* IMG_4632.jpeg */; };
+		767763D323739FA50011419F /* 03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 767763D223739FA50011419F /* 03.jpeg */; };
+		767763D523739FAB0011419F /* 04.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 767763D423739FAB0011419F /* 04.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		767763BB2373930B0011419F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		767763BE2373930B0011419F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		767763C02373930B0011419F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767763C6237394150011419F /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
+		767763C7237394150011419F /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		767763CA237394820011419F /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		767763CC2373955F0011419F /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		767763CE23739DBE0011419F /* 05.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpeg; sourceTree = "<group>"; };
+		767763D023739E1F0011419F /* IMG_4632.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4632.jpeg; sourceTree = "<group>"; };
+		767763D223739FA50011419F /* 03.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpeg; sourceTree = "<group>"; };
+		767763D423739FAB0011419F /* 04.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,14 @@
 		767763B1237393090011419F /* Tab */ = {
 			isa = PBXGroup;
 			children = (
+				767763CE23739DBE0011419F /* 05.jpeg */,
+				767763D223739FA50011419F /* 03.jpeg */,
+				767763D423739FAB0011419F /* 04.jpeg */,
+				767763D023739E1F0011419F /* IMG_4632.jpeg */,
+				767763CC2373955F0011419F /* DateViewController.swift */,
+				767763CA237394820011419F /* ImageViewController.swift */,
+				767763C7237394150011419F /* lamp_off.png */,
+				767763C6237394150011419F /* lamp_on.png */,
 				767763B2237393090011419F /* AppDelegate.swift */,
 				767763B4237393090011419F /* SceneDelegate.swift */,
 				767763B6237393090011419F /* ViewController.swift */,
@@ -125,8 +149,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767763CF23739DBE0011419F /* 05.jpeg in Resources */,
+				767763C8237394150011419F /* lamp_on.png in Resources */,
 				767763BF2373930B0011419F /* LaunchScreen.storyboard in Resources */,
+				767763D123739E1F0011419F /* IMG_4632.jpeg in Resources */,
+				767763C9237394150011419F /* lamp_off.png in Resources */,
 				767763BC2373930B0011419F /* Assets.xcassets in Resources */,
+				767763D523739FAB0011419F /* 04.jpeg in Resources */,
+				767763D323739FA50011419F /* 03.jpeg in Resources */,
 				767763BA237393090011419F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767763CD2373955F0011419F /* DateViewController.swift in Sources */,
 				767763B7237393090011419F /* ViewController.swift in Sources */,
 				767763B3237393090011419F /* AppDelegate.swift in Sources */,
+				767763CB237394820011419F /* ImageViewController.swift in Sources */,
 				767763B5237393090011419F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
